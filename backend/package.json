@@ -1,0 +1,21 @@
+{
+  "name": "one_socket",
+  "version": "1.0.0",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development CHOKIDAR_USEPOLLING=true nodemon index.js"
+  },
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.0.3",
+    "mysql2": "^2.3.3",
+    "pm2": "^5.2.2",
+    "protobufjs": "^7.1.2",
+    "uuid": "^9.0.0",
+    "uWebSockets.js": "github:uNetworking/uWebSockets.js#v20.15.0"
+  }
+}
